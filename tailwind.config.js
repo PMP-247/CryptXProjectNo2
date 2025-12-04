@@ -1,0 +1,122 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"], 
+    
+    theme: {
+      extend: {
+        // --- Colors ---
+        colors: {
+          // Light Palette
+          "light-primary": "rgba(21, 115, 254, 1)",
+          "light-gray-0": "rgba(255, 255, 255, 1)",
+          "light-gray-1": "rgba(250, 250, 250, 1)",
+          "light-gray-2": "rgba(245, 245, 245, 1)",
+          "light-gray-3": "rgba(238, 238, 238, 1)",
+          "light-gray-4": "rgba(217, 217, 217, 1)",
+          "light-gray-6": "rgba(158, 158, 158, 1)",
+          "light-gray-7": "rgba(117, 117, 117, 1)",
+          "light-gray-8": "rgba(97, 97, 97, 1)",
+          "light-gray-9": "rgba(66, 66, 66, 1)",
+          "light-gray-10": "rgba(33, 33, 33, 1)",
+          "light-gray-11": "rgba(0, 0, 0, 1)",
+          "light-color-1": "rgba(223, 21, 37, 1)",
+          "light-color-2": "rgba(4, 156, 107, 1)",
+          "light-color-3": "rgba(183, 6, 214, 1)",
+          "light-color-4": "rgba(40, 155, 246, 1)",
+          "light-color-5": "rgba(249, 159, 1, 1)",
+          "light-bg-1": "rgba(255, 252, 229, 1)",
+          "light-bg-2": "rgba(232, 255, 235, 1)",
+          "light-bg-3": "rgba(255, 236, 239, 1)",
+          "light-bg-4": "rgba(223, 241, 255, 1)",
+          "light-bg-5": "rgba(239, 239, 255, 1)",
+          "light-ex-1": "rgba(236, 231, 254, 1)",
+          "light-ex-2": "rgba(227, 244, 225, 1)",
+          "light-ex-3": "rgba(235, 240, 240, 1)",
+          "light-primary-40pc": "rgba(161, 199, 255, 1)",
+          "light-primary-24pc": "rgba(199, 221, 255, 1)",
+          "light-primary-12pc": "rgba(227, 238, 255, 1)",
+          "light-primary-5pc": "rgba(243, 248, 255, 1)",
+          "light-pink": "rgba(246, 28, 122, 1)",
+          // Dark Palette
+          "dark-primary": "rgba(137, 185, 255, 1)",
+          "dark-gray-0": "rgba(0, 0, 0, 1)",
+          "dark-gray-1": "rgba(32, 32, 32, 1)",
+          "dark-gray-2": "rgba(67, 67, 67, 1)",
+          "dark-gray-3": "rgba(96, 96, 96, 1)",
+          "dark-gray-4": "rgba(118, 118, 118, 1)",
+          "dark-gray-5": "rgba(157, 157, 157, 1)",
+          "dark-gray-6": "rgba(189, 189, 189, 1)",
+          "dark-gray-7": "rgba(218, 218, 218, 1)",
+          "dark-gray-8": "rgba(239, 239, 239, 1)",
+          "dark-gray-9": "rgba(246, 246, 246, 1)",
+          "dark-gray-10": "rgba(251, 251, 251, 1)",
+          "dark-gray-11": "rgba(254, 254, 254, 1)",
+          "dark-color-1": "rgba(255, 155, 155, 1)",
+          "dark-color-2": "rgba(7, 248, 181, 1)",
+          "dark-color-3": "rgba(230, 133, 255, 1)",
+          "dark-color-4": "rgba(107, 189, 255, 1)",
+          "dark-color-5": "rgba(255, 178, 41, 1)",
+          "dark-bg-1": "rgba(73, 72, 62, 1)",
+          "dark-bg-2": "rgba(42, 64, 55, 1)",
+          "dark-bg-3": "rgba(73, 5, 23, 1)",
+          "dark-bg-4": "rgba(16, 62, 99, 1)",
+          "dark-bg-5": "rgba(67, 58, 75, 1)",
+          "dark-ex-1": "rgba(65, 62, 73, 1)",
+          "dark-ex-2": "rgba(75, 81, 74, 1)",
+          "dark-ex-3": "rgba(77, 81, 81, 1)",
+          "dark-primary-40pc": "rgba(8, 46, 102, 1)",
+          "dark-primary-24pc": "rgba(5, 28, 61, 1)",
+          "dark-primary-12pc": "rgba(3, 14, 30, 1)",
+          "dark-primary-5pc": "rgba(1, 6, 13, 1)"
+        },
+  
+        // --- Font Families ---
+        fontFamily: {
+          "display-large": ["Roboto"],
+          "display-medium": ["Roboto"],
+          "display-small": ["Roboto"],
+          "headline-large": ["Roboto"],
+          "headline-medium": ["Roboto"],
+          "headline-small": ["Roboto"],
+          "title-large": ["Roboto"],
+          "title-medium": ["Roboto"],
+          "title-small": ["Roboto"],
+          "body-large": ["Roboto"],
+          "body-medium": ["Roboto"],
+          "body-small": ["Roboto"],
+          "body-tiny": ["Roboto"],
+          "poppins-large": ["Poppins"],
+          "poppins-medium": ["Poppins"],
+          "poppins-small": ["Poppins"],
+          "poppins-bigger": ["Poppins"],
+          "poppins-tiny": ["Poppins"]
+        },
+  
+    
+        fontSize: {
+          "display-large": "57px",
+          "display-medium": "45px",
+          "display-small": "36px",
+          "headline-large": "32px",
+          "headline-medium": "28px",
+          "headline-small": "24px",
+          "title-large": "22px",
+          "title-medium": "16px",
+          "title-small": "14px",
+          "body-large": "16px",
+          "body-medium": "14px",
+          "body-small": "12px",
+          "body-tiny": "10px",
+          "poppins-large": "22px",
+          "poppins-medium": "16px",
+          "poppins-small": "14px",
+          "poppins-bigger": "32px",
+          "poppins-tiny": "12px"
+        },
+  
+        boxShadow: {}
+      }
+    },
+    plugins: [], // Always good practice to include plugins array
+  };
