@@ -1,4 +1,3 @@
-// Sidebar.jsx
 import React from 'react';
 import SidebarIcon from "../content/Sidebar.svg";
 

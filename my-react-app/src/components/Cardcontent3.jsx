@@ -1,2 +1,3 @@
 import React from 'react';
-import Cardcontent3 from './src/content/cardcontent3';
+import Cardcontent3 from './src/content/Card3.svg';
+
