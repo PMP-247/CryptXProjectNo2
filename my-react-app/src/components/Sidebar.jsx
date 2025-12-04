@@ -10,7 +10,7 @@ export const Sidebar = () => {
             src={SidebarIcon} alt='Sidebar Icon'
             className='w-10 h-10 object-contain'
             />
-            <h1 className='text-xl font-semibold text-gray-800'>Menue</h1>
+           
         </div>
 
         <nav className='flex flex-col gap-4'>
