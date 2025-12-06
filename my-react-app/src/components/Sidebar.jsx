@@ -15,24 +15,6 @@ export const Sidebar = () => {
 
         <nav className='flex flex-col gap-4'>
             <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
-                Overview
-            </button>
-            <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
-           Chart
-            </button>
-            <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
-          Transactions
-            </button>
-            <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
-          Wallet
-            </button>
-            <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
-          Mail Box
-            </button>
-            <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
-          Settings
-            </button>
-            <button className='text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg px-3 py-2 text-left'>
           Logout
             </button>
         </nav>

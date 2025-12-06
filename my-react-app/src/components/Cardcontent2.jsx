@@ -1,3 +1,0 @@
-import React from 'react';
-import Cardcontent2 from './src/content/Card2.svg';
-
