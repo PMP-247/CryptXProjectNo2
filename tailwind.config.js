@@ -5,9 +5,9 @@ module.exports = {
     
     theme: {
       extend: {
-        // --- Colors ---
+      
         colors: {
-          // Light Palette
+         
           "light-primary": "rgba(21, 115, 254, 1)",
           "light-gray-0": "rgba(255, 255, 255, 1)",
           "light-gray-1": "rgba(250, 250, 250, 1)",
@@ -38,7 +38,7 @@ module.exports = {
           "light-primary-12pc": "rgba(227, 238, 255, 1)",
           "light-primary-5pc": "rgba(243, 248, 255, 1)",
           "light-pink": "rgba(246, 28, 122, 1)",
-          // Dark Palette
+          
           "dark-primary": "rgba(137, 185, 255, 1)",
           "dark-gray-0": "rgba(0, 0, 0, 1)",
           "dark-gray-1": "rgba(32, 32, 32, 1)",
@@ -71,7 +71,6 @@ module.exports = {
           "dark-primary-5pc": "rgba(1, 6, 13, 1)"
         },
   
-        // --- Font Families ---
         fontFamily: {
           "display-large": ["Roboto"],
           "display-medium": ["Roboto"],
@@ -118,5 +117,5 @@ module.exports = {
         boxShadow: {}
       }
     },
-    plugins: [], // Always good practice to include plugins array
+    plugins: [], 
   };
